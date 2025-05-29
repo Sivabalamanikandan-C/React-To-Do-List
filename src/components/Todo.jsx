@@ -32,7 +32,7 @@ const Todo = () => {
                 <h1 className="text-3xl font-bold mb-6 text-center text-blue-700">To-Do List</h1>
                 <div className="flex gap-2 mb-6">
                     <input type="text" value={addlist} onChange={handleAddlist} className="flex-1 px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-400" placeholder="Add a new task..." />
-                    <button onClick={handleResult} className="px-4 py-2 bg-blue-400 text-white rounded">Add</button>
+                    <button onClick={handleResult} className="px-4 py-2 bg-blue-700 text-white rounded">Add</button>
                 </div>
 
                 <ul className="list-disc pl-6 space-y-3">
