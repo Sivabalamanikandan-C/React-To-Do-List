@@ -1,7 +1,6 @@
 import { useState } from "react";
 
 const Todo = () => {
-
     const [addlist, setaddlist] = useState("");
     const [list, setlist] = useState([{ id: 1, activity: "Wakeup" }, { id: 2, activity: "Walk" }]);
 
