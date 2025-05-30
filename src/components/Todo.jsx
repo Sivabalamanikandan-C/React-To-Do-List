@@ -38,7 +38,7 @@ const Todo = () => {
                     {
                         list.map((items) => {
                             return (
-                                <li key={items.id} className="flex items-center justify-between bg-gray-100 px-4 py-2 rounded"><span className="text-gray-800">{items.activity}</span>
+                                <li key={items.id} className="flex items-center justify-between bg-gray-100 px-4 py-2 rounded-md"><span className="text-gray-800">{items.activity}</span>
                                     <button onClick={() => { handleDelete(items.id) }} className="ml-3 px-3 py-1 bg-red-700 text-white rounded">Delete</button>
                                 </li>
                             )
