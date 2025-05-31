@@ -10,6 +10,7 @@ const Todo = () => {
 
     const handleResult = () => {
         setlist([...list, { id: list.length+1, activity: addlist }]);
+        setaddlist("");
     }
 
     const handleDelete = (removeid) => {
